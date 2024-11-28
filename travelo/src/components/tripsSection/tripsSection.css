@@ -1,0 +1,29 @@
+
+
+.tripsSection{
+    background-color:#F2F2F2 ;
+}
+
+.tripsSection .HeaderSection{
+padding-block: 1em;
+}
+
+.tripsSection .container{
+display: flex;
+gap: 2em;
+padding-inline: 3em;
+}
+
+
+@media (max-width:1024px) {
+    .container {
+    flex-wrap: wrap;
+    }
+}
+@media (max-width:768px) {
+    .container {
+    flex-wrap: wrap;
+    }
+}
+
+
